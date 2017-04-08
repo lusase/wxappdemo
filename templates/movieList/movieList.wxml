@@ -1,0 +1,19 @@
+<import src="/templates/movie/movie" />
+<template name="movieList">
+  <view class="movie-list-container">
+    <view class="wrapper">
+      <view class="header">
+        <text class="slogan">{{listTitle}}</text>
+        <navigator url="/pages/more-movies/more-movies?type={{type}}&title={{listTitle}}">
+          <view class="more">
+            <text class="more-text">更多</text>
+            <image class="more-icon" src="/images/icon/arrow-right.png"></image>
+          </view>
+        </navigator>
+      </view>
+      <view class="movies-wrapper">
+        <template wx:for="{{subjects||[]}}" wx:key="{{index}}" data="{{ ...item }}" is="movie" />
+      </view>
+    </view>
+  </view>
+</template>

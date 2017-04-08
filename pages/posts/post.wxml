@@ -1,0 +1,20 @@
+<import src="post-item/post-item-template" />
+
+<view class="container">
+    <swiper class="img-scroll" indicator-dots="true" autoplay="true">
+        <swiper-item>
+            <navigator url="post-detail/post-detail?id=5"><image src="/images/iqiyi.png"></image></navigator>
+        </swiper-item>
+        <swiper-item>
+            <navigator url="post-detail/post-detail?id=4"><image src="/images/vr.png"></image></navigator>
+        </swiper-item>
+        <swiper-item>
+            <navigator url="post-detail/post-detail?id=3"><image src="/images/wx.png"></image></navigator>
+        </swiper-item>
+    </swiper>
+    <block wx:for="{{list}}" wx:key="{{index}}">
+        <view catchtap="gotoDetail" data-index="{{index}}" data-item="{{item}}" >
+            <template is="postItem" data="{{...item}}" ></template>        
+        </view>
+    </block>
+</view>

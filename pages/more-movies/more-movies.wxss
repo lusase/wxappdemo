@@ -1,0 +1,9 @@
+@import "/templates/movieGrid/movieGrid.wxss";
+
+.more-movies{
+    display: flex;
+    flex-direction: column;
+}
+.more-movies .movie-grid-wrapper{
+    margin: 36rpx auto 0;
+}

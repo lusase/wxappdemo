@@ -1,0 +1,8 @@
+@import "/templates/movie/movie.wxss";
+.movie-grid{
+    width:732rpx;
+}
+.movie-grid .movie-wrapper{
+    float:left;
+    margin-bottom: 40rpx;
+}

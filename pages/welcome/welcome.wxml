@@ -1,0 +1,7 @@
+<view class="container">
+    <image class="user-avatar" src="{{avatar}}"></image>
+    <text class="user-name">Hello , {{nickname}}</text>
+    <view class="moto-wrapper" bindtap="gotoList">
+        <text class="moto">开启小程序之旅</text>
+    </view>
+</view>

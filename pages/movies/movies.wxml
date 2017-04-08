@@ -1,0 +1,15 @@
+<import src="/templates/movieList/movieList" />
+<import src="/templates/movieGrid/movieGrid" />
+<view class="search">
+    <icon type="search" class="search-icon" size="13" color="#405f80"/>
+    <input type="text" placeholder="速度与激情8" placeholder-class="placeholder" catchfocus="inputFocus" bindconfirm="inputConfirm" bindblur="inputBlur" />
+    <image wx:if="{{showSearch}}" class="search-close-icon" src="/images/icon/xx.png" catchtap="closeSearch"></image>
+</view>
+<view wx:if="{{!showSearch}}" class="movies-container">
+    <template data="{{...inTheaters}}" is="movieList"/>
+    <template data="{{...comingSoon}}" is="movieList"/>
+    <template data="{{...top250}}" is="movieList"/>
+</view>
+<scroll-view scroll-y="true" wx:if="{{showSearch}}" class="search-panel">
+    <template data="{{...searchData}}" is="movieGrid" />
+</scroll-view>

@@ -1,0 +1,138 @@
+@import "/templates/stars/stars.wxss";
+
+.detail-container{
+    display:flex;
+    flex-direction: column;
+}
+text{
+    font-size: 24rpx;
+}
+.head-img{
+    width: 750rpx;
+    height: 320rpx;
+    filter: blur(20px);
+}
+.head-img-hover{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 750rpx;
+    height: 320rpx;
+}
+.main-title{
+    margin: 50rpx 0 0 40rpx;
+    font-size: 19px;    
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.sub-title{
+    margin: 30rpx 0 0 40rpx;
+    font-size: 28rpx;
+    color: #fff;
+}
+.like{
+    display: flex;
+    margin:30rpx 0 0 40rpx;
+}
+.highlight-font{
+    margin-right: 10rpx;
+    font-size: 22rpx;
+    color: #f21146;
+}
+.plain-font{
+    margin-right: 30rpx;
+    font-size: 22rpx;
+    color: #666;
+}
+.movie-img{
+    position: absolute;
+    top: 160rpx;
+    right: 30rpx;
+    width: 175rpx;
+    height: 238rpx;
+}
+.summary{
+    margin: 40rpx 0 0 40rpx;
+    color: #777;
+}
+.original-title{
+    margin-bottom: 40rpx;
+    font-size: 24rpx;
+    font-weight: bold;
+    color: #1f3463;
+}
+.flex-row{
+    display: flex;
+    margin-bottom: 10rpx;
+}
+.mark{
+    margin-right: 30rpx;
+    white-space: nowrap;
+    color: #999;
+}
+.hr{
+    margin-top: 45rpx;
+    height: 1px;
+    background-color: #d9d9d9;
+}
+.synopsis{
+    display: flex;
+    flex-direction: column;
+    margin:50rpx 0 0 40rpx;
+    color: #999;
+}
+.summary-content{
+    margin: 20rpx 40rpx 0 0;
+    line-height: 40rpx;
+    letter-spacing: 1px;
+    color: #666;
+}
+.cast{
+    display: flex;
+    flex-direction: column;
+    margin: 50rpx 0 0 40rpx;
+}
+.cast-title{
+    margin-bottom: 40rpx;
+    color: #999;
+}
+.cast-imgs{
+    white-space: nowrap;
+    width: 100%;
+}
+.cast-container{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 40rpx 50rpx 0;
+    width: 170rpx;
+    text-align: center;
+    white-space: nowrap;
+}
+.cast-img{
+    width: 170rpx;
+    height: 210rpx;
+}
+.cast-name{
+    margin: 10rpx auto 0;
+    word-break: break-all;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+<import src="/templates/stars/stars" />
+<template name="movie">
+    <navigator url="/pages/movie-detail/movie-detail?id={{id}}&title={{title}}">
+        <view class="movie-container">
+            <image class="movie-img" src="{{images.large}}"></image>
+            <text class="movie-title">{{title}}</text>
+            <template data="{{...rating}}" is="stars" />
+        </view>
+    </navigator>
+</template>

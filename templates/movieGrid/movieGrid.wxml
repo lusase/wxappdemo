@@ -1,0 +1,8 @@
+<import src="/templates/movie/movie" />
+<template name="movieGrid">
+    <view class="movie-grid" scroll-y="true">
+        <view wx:for="{{subjects}}" wx:key="index" class="movie-wrapper">
+            <template  data="{{...item}}" is="movie" />
+        </view>
+    </view>
+</template>

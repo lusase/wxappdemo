@@ -1,0 +1,12 @@
+.img-scroll{
+    height:600rpx;
+}
+.img-scroll navigator{
+    width:750rpx;
+    height: 100%;
+}
+.img-scroll image{
+    width: 750rpx;
+    height: 100%;
+}
+@import "post-item/post-item-template.wxss";

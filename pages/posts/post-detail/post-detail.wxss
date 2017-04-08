@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.head-image{
+    width: 750rpx;
+}
+.author-date{
+    /*flex-direction: column;*/
+    margin: 20rpx 0 0 30rpx;
+}
+.avatar{
+    width: 64rpx;
+    height: 64rpx;
+    vertical-align: middle;    
+}
+.author{
+    margin-left: 20rpx;
+    font-size: 30rpx;
+    font-weight: 300;
+    color: #666;    
+}
+.author-text{
+    margin-left: 20rpx;
+    font-size: 24rpx;
+    color: #999;
+}
+.date{
+    margin-left: 30rpx;
+    font-size: 24rpx;
+    color: #999;
+}
+.title{
+    margin:30rpx 0 0 40rpx;
+    font-size: 36rpx;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #4b556c;
+}
+.tool{
+    margin-top: 20rpx;
+}
+.icons{
+    float: right;
+    margin-right: 40rpx;
+}
+.icons image{
+    width:90rpx;
+    height: 90rpx;
+}
+.share-img{
+    margin-left: 30rpx;
+}
+.line{
+    position: relative;
+    top:46rpx;
+    margin: 0 auto;
+    width: 660rpx;
+    height: 2rpx;
+    background-color: #e5e5e5;
+    z-index: -1;
+}
+.detail{
+    margin: 20rpx 30rpx 0;
+    line-height: 44rpx;
+    letter-spacing: 2px;
+    color: #666;
+    font-size: 24rpx;
+}
+.music-img{
+    position: absolute;
+    left: 50%;
+    margin-left: -51rpx;
+    top:180rpx;
+    width:102rpx;
+    height: 110rpx;
+    opacity: .8;
+}
